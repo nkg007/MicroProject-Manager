@@ -1,10 +1,11 @@
 import React ,{Component} from 'react';
+import MainList from './MainList';
 
 class App extends Component{
   render(){
     return (
       <div className="App">
-        <h1>Hellow World</h1>
+        <MainList title="try"/>
       </div>
     );
   }
